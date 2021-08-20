@@ -71,10 +71,11 @@ function router() {
       break;
     default:
       window.history.pushState({}, '', '/');
-      router();
       break;
   }
 }
+
+
 
 
 
